@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <title>Circle Preloader</title>
+</head>
+<body>
+    <div class="container">
+        
+        <!-- HTML card start  -->
+        <div class="card">
+            <div class="box">
+                <div id="html_circle" class="percent">
+                    <svg>
+                        <circle class="circle_html" cx='70' cy='70' r='70'></circle>
+                        <circle class="circle_html" cx='70' cy='70' r='70'></circle>
+                    </svg>
+                    <div class="number">
+                        <h2 id="count_html">0<span>%</span></h2>
+                    </div>
+                </div>
+                <h2 class="text">HTML</h2>
+            </div>
+        </div>
+        <!-- HTML card end  -->
+
+        <!-- CSS card start  -->
+        <div class="card">
+            <div class="box">
+                <div class="percent">
+                    <svg>
+                        <circle class="circle_css" cx='70' cy='70' r='70'></circle>
+                        <circle class="circle_css" cx='70' cy='70' r='70'></circle>
+                    </svg>
+                    <div class="number">
+                        <h2 id="count_css">0<span><small>%</small></span></h2>
+                    </div>
+                </div>
+                <h2 class="text">CSS</h2>
+            </div>
+        </div>
+        <!-- CSS card end  -->
+
+        <!-- JS card start  -->
+        <div class="card">
+            <div class="box">
+                <div class="percent">
+                    <svg>
+                        <circle class="circle_js" cx='70' cy='70' r='70'></circle>
+                        <circle class="circle_js" cx='70' cy='70' r='70'></circle>
+                    </svg>
+                    <div class="number">
+                        <h2 id="count_js">0<span>%</span></h2>
+                    </div>
+                </div>
+                <h2 class="text">JS</h2>
+            </div>
+        </div>
+        <!-- JS card end  -->
+    </div>
+    
+    <script src="main.js"></script>
+</body>
+</html>
